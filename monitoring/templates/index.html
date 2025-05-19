@@ -1,8 +1,21 @@
 {% extends 'base.html' %}
 {% block content %}
 
-    <div style=" display: flex; align-items: center; justify-content: center;" class="login-box auth0-box before">
-            <img style="width:80%; " src="/static/media/monitor.png" />
-    </div>
+    
+    <main class="container">
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+          <div class="row">
+            <div class="col-lg-6 order-lg-2">
+              <h1 class="display-4 Eina 04 SemiBold"> Bienvenidos a nuestro sistema de Diagnóstico </h1>
+              <p class="lead my-3">En nuestro sistema la salud es una prioridad</p>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <video width="100%" controls autoplay loop muted>
+                    <source src="https://cdn.dribbble.com/userupload/32654488/file/large-52abab1cc199a45b97e79de04b283254.mp4" type="video/mp4">
+                </video>
+            </div>
+          </div>
+        </div>
+      </main>
 
 {% endblock %}
